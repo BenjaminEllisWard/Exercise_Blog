@@ -1,0 +1,71 @@
+.thickBorder
+{
+	border-style: solid;
+	border-style: thick;
+}
+
+.blueBackground
+{
+	background-color: rgb(100, 200, 300);
+}
+
+body
+{
+	color: #333;
+	line-height: 1.4em;
+	font-family: sans-serif;
+}
+
+p
+{
+	margin-top:1.4em;
+}
+
+section h1
+{
+	font-size: 1.5em;
+}
+
+#pageHeader
+{
+	text-align: center;
+	font-family: serif;
+}
+
+#pageFooter
+{
+	border-top: solid thin;
+	text-align: right;
+	background-color: rgb(100, 200, 300);
+	padding: 1em;
+}
+
+#contentHeader > h1 
+{
+	margin-bottom: 0.2em;
+}
+
+#contentHeader > .author
+{
+	color: #777;
+}
+
+
+#contentFooter 
+{
+	width: 60%;	
+}
+
+#contentFooter > #authorImage
+{
+	float: left;
+	margin-right: 0.7em;
+	margin-bottom: 0.5em;
+}
+
+#contentFooter::after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
